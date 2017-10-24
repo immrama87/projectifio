@@ -1,0 +1,38 @@
+<div class="row text-center file-editor-action-bar" ng-controller="fileEditorActionBarController">
+  <div class="btn-group" ng-repeat="group in actions"
+      ng-init="hasDropdown=group[0].hasOwnProperty('options') && group.length == 1;"
+      ng-class="{'dropdown': hasDropdown}">
+    <button class="btn btn-default"
+        ng-repeat="action in group"
+        ng-attr-title="{{action.hasOwnProperty('hotKey') ? action.name + ' (' + action.hotKey + ')' : action.name}}"
+        ng-attr-data-toggle="{{hasDropdown ? 'dropdown' : ''}}"
+        ng-class="{
+          'active': !hasDropdown && (action.hasOwnProperty('expect') ? state[action.prop] == action.expect : state[action.prop]),
+          'dropdown-toggle': hasDropdown
+        }"
+        ng-click="action.click()"
+        ng-disabled="isLocked(action.locked)">
+      <i class="fa {{action.icon}}" ng-if="!hasDropdown"></i>
+      <span ng-if="hasDropdown">
+        {{state[action.prop]}}&nbsp;<span class="caret"></span>
+      </span>
+    </button>
+
+    <ul class="dropdown-menu"
+        ng-if="hasDropdown"
+        ng-init="action=group[0];options = action.options">
+      <li ng-repeat="option in options" ng-class="{'active': state[action.prop] == option}">
+        <a href="#" ng-click="state.setProperty(action.prop, option);">{{option}}</a>
+      </li>
+    </ul>
+  </div>
+
+  <!--
+  <div class="btn-group">
+    <button class="btn btn-default"><i class="fa fa-external-link"></i></button>
+    <button class="btn btn-default"><i class="fa fa-picture-o"></i></button>
+    <button class="btn btn-default"><i class="fa fa-table"></i></button>
+    <button class="btn btn-default"><i class="fa fa-quote-left"></i></button>
+    <button class="btn btn-default"><i class="fa fa-columns"></i></button>
+  </div>-->
+</div>

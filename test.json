@@ -1,0 +1,476 @@
+[
+  {
+    "Id": 0,
+    "Number": "string",
+    "PurchaseNumber": "string",
+    "Subscriber": {
+      "Id": 0,
+      "ShortName": "string",
+      "Email": "string",
+      "Users": [
+        {
+          "Id": 0,
+          "UserName": "string",
+          "FullName": "string",
+          "Email": "string",
+          "Disabled": true,
+          "Roles": [
+            "string"
+          ],
+          "UserType": "Corporate",
+          "DashboardAssigned": 0,
+          "Access": {
+            "Locations": [
+              "string"
+            ],
+            "Districts": [
+              "string"
+            ],
+            "Regions": [
+              "string"
+            ],
+            "Trades": [
+              "string"
+            ]
+          },
+          "Limits": {
+            "NteLimit": {
+              "Amount": 0,
+              "CurrencyId": 0
+            },
+            "ProposalLimit": {
+              "Amount": 0,
+              "CurrencyId": 0
+            },
+            "InvoiceLimit": {
+              "Amount": 0,
+              "CurrencyId": 0
+            }
+          }
+        }
+      ],
+      "PrimaryCurrency": {
+        "Id": 0,
+        "AlphabeticalCode": "string"
+      },
+      "Name": "string",
+      "Address1": "string",
+      "Address2": "string",
+      "Country": "string",
+      "State": "string",
+      "City": "string",
+      "Zip": "string",
+      "Phone": "string",
+      "Fax": "string",
+      "ContactName": "string"
+    },
+    "Provider": {
+      "Phone": "string",
+      "FullName": "string",
+      "Address1": "string",
+      "Address2": "string",
+      "City": "string",
+      "State": "string",
+      "Zip": "string",
+      "Country": "string",
+      "MainContact": "string",
+      "DateCreated": "2017-09-15T16:00:59.763Z",
+      "LastUserDate": "string",
+      "SuperUser": "string",
+      "WebSite": "string",
+      "Email": "string",
+      "TaxId": "string",
+      "Trade": "string",
+      "ProcessingEmail": "string",
+      "FaxNumber": "string",
+      "SuiteFloor": "string",
+      "MailInfo": "string",
+      "ImageFile": "string",
+      "ReturnMail": "string",
+      "MailFrequency": 0,
+      "FormId": 0,
+      "Pager": "string",
+      "NightRequest": 0,
+      "ShortFormatEmail": "string",
+      "LastTrainingDate": "2017-09-15T16:00:59.763Z",
+      "LastTrainingDateStr": "string",
+      "Id": 0,
+      "Name": "string"
+    },
+    "Location": {
+      "Id": 0,
+      "SubscriberId": 0,
+      "StoreId": "string",
+      "Name": "string",
+      "ShortName": "string",
+      "Latitude": 0,
+      "Longitude": 0,
+      "Distance": 0,
+      "LocationTypeId": 0,
+      "Address1": "string",
+      "Address2": "string",
+      "City": "string",
+      "State": "string",
+      "Region": "string",
+      "District": "string",
+      "Zip": "string",
+      "Country": "string",
+      "ClosedDate": "2017-09-15T16:00:59.763Z",
+      "OpenDate": "2017-09-15T16:00:59.763Z",
+      "Status": "string",
+      "Email": "string",
+      "FaxNumber": "string",
+      "Phone": "string",
+      "Contact": "string",
+      "Notes": [
+        {
+          "Id": 0,
+          "HeaderId": 0,
+          "Value": "string",
+          "Header": "string"
+        }
+      ]
+    },
+    "Status": {
+      "Primary": "string",
+      "Extended": "string"
+    },
+    "Caller": "string",
+    "CreatedBy": "string",
+    "CallDate": "2017-09-15T16:00:59.763Z",
+    "ReassignDate": "2017-09-15T16:00:59.763Z",
+    "Priority": "string",
+    "Trade": "string",
+    "ApprovalCode": "string",
+    "ScheduledDate": "2017-09-15T16:00:59.763Z",
+    "CompletedDate": "2017-09-15T16:00:59.763Z",
+    "ExpirationDate": "2017-09-15T16:00:59.763Z",
+    "UpdatedDate": "2017-09-15T16:00:59.763Z",
+    "Description": "string",
+    "Category": "string",
+    "Nte": 0,
+    "Tax": 0,
+    "Tax2": 0,
+    "Tax2Type": "string",
+    "Price": 0,
+    "Currency": {
+      "Id": 0,
+      "AlphabeticalCode": "string"
+    },
+    "ProblemCode": "string",
+    "Invoice": {
+      "Provider": {
+        "Phone": "string",
+        "FullName": "string",
+        "Address1": "string",
+        "Address2": "string",
+        "City": "string",
+        "State": "string",
+        "Zip": "string",
+        "Country": "string",
+        "MainContact": "string",
+        "DateCreated": "2017-09-15T16:00:59.763Z",
+        "LastUserDate": "string",
+        "SuperUser": "string",
+        "WebSite": "string",
+        "Email": "string",
+        "TaxId": "string",
+        "Trade": "string",
+        "ProcessingEmail": "string",
+        "FaxNumber": "string",
+        "SuiteFloor": "string",
+        "MailInfo": "string",
+        "ImageFile": "string",
+        "ReturnMail": "string",
+        "MailFrequency": 0,
+        "FormId": 0,
+        "Pager": "string",
+        "NightRequest": 0,
+        "ShortFormatEmail": "string",
+        "LastTrainingDate": "2017-09-15T16:00:59.763Z",
+        "LastTrainingDateStr": "string",
+        "Id": 0,
+        "Name": "string"
+      },
+      "Subscriber": {
+        "Id": 0,
+        "ShortName": "string",
+        "Email": "string",
+        "Users": [
+          {
+            "Id": 0,
+            "UserName": "string",
+            "FullName": "string",
+            "Email": "string",
+            "Disabled": true,
+            "Roles": [
+              "string"
+            ],
+            "UserType": "Corporate",
+            "DashboardAssigned": 0,
+            "Access": {
+              "Locations": [
+                "string"
+              ],
+              "Districts": [
+                "string"
+              ],
+              "Regions": [
+                "string"
+              ],
+              "Trades": [
+                "string"
+              ]
+            },
+            "Limits": {
+              "NteLimit": {
+                "Amount": 0,
+                "CurrencyId": 0
+              },
+              "ProposalLimit": {
+                "Amount": 0,
+                "CurrencyId": 0
+              },
+              "InvoiceLimit": {
+                "Amount": 0,
+                "CurrencyId": 0
+              }
+            }
+          }
+        ],
+        "PrimaryCurrency": {
+          "Id": 0,
+          "AlphabeticalCode": "string"
+        },
+        "Name": "string",
+        "Address1": "string",
+        "Address2": "string",
+        "Country": "string",
+        "State": "string",
+        "City": "string",
+        "Zip": "string",
+        "Phone": "string",
+        "Fax": "string",
+        "ContactName": "string"
+      },
+      "Location": {
+        "Id": 0,
+        "SubscriberId": 0,
+        "StoreId": "string",
+        "Name": "string",
+        "ShortName": "string",
+        "Latitude": 0,
+        "Longitude": 0,
+        "Distance": 0,
+        "LocationTypeId": 0,
+        "Address1": "string",
+        "Address2": "string",
+        "City": "string",
+        "State": "string",
+        "Region": "string",
+        "District": "string",
+        "Zip": "string",
+        "Country": "string",
+        "ClosedDate": "2017-09-15T16:00:59.764Z",
+        "OpenDate": "2017-09-15T16:00:59.764Z",
+        "Status": "string",
+        "Email": "string",
+        "FaxNumber": "string",
+        "Phone": "string",
+        "Contact": "string",
+        "Notes": [
+          {
+            "Id": 0,
+            "HeaderId": 0,
+            "Value": "string",
+            "Header": "string"
+          }
+        ]
+      },
+      "Id": 0,
+      "Number": "string",
+      "BatchNumber": "string",
+      "InvoiceTax": 0,
+      "PostedTaxRate": 0,
+      "VendorPayeeId": 0,
+      "InvoiceTotal": 0,
+      "Currency": {
+        "Id": 0,
+        "AlphabeticalCode": "string"
+      },
+      "ApprovedDate": "2017-09-15T16:00:59.764Z",
+      "ApprovalCode": "string",
+      "PostedDate": "2017-09-15T16:00:59.764Z",
+      "Subtotal": 0,
+      "Status": "string",
+      "Trade": "string",
+      "InvoiceAmountsDetails": {
+        "LaborAmount": 0,
+        "MaterialAmount": 0,
+        "TravelAmount": 0,
+        "FreightAmount": 0,
+        "OtherAmount": 0,
+        "OtherDescription": "string"
+      },
+      "InvoiceTaxesDetails": {
+        "LaborTaxPercent": 0,
+        "MaterialTaxPercent": 0,
+        "TravelTaxPercent": 0,
+        "FreightTaxPercent": 0,
+        "OtherTaxPercent": 0,
+        "LaborTax": 0,
+        "MaterialTax": 0,
+        "TravelTax": 0,
+        "FreightTax": 0,
+        "OtherTax": 0
+      },
+      "Tax2Details": {
+        "Tax2Amount": 0,
+        "Tax2Name": "string"
+      },
+      "Labors": [
+        {
+          "InvoiceId": 0,
+          "SkillLevel": "string",
+          "LaborType": "string",
+          "NumOfTech": "string",
+          "HourlyRate": 0,
+          "Hours": 0,
+          "Amount": 0,
+          "IsOffShore": true,
+          "ServiceType": "string",
+          "CityPerformed": "string"
+        }
+      ],
+      "Materials": [
+        {
+          "InvoiceId": 0,
+          "Description": "string",
+          "PartNum": "string",
+          "UnitType": "string",
+          "UnitPrice": 0,
+          "Quantity": 0,
+          "Amount": 0
+        }
+      ],
+      "Travels": [
+        {
+          "InvoiceId": 0,
+          "Description": "string",
+          "UnitType": "string",
+          "UnitPrice": 0,
+          "Quantity": 0,
+          "Amount": 0,
+          "IsOffShore": true
+        }
+      ],
+      "StarredBy": "string",
+      "IsStarred": true,
+      "StarredDate": "2017-09-15T16:00:59.764Z",
+      "Description": "string",
+      "InvoiceDate": "2017-09-15T16:00:59.764Z",
+      "LaborTaxIncluded": true,
+      "TravelTaxIncluded": true,
+      "MaterialsTaxIncluded": true,
+      "FreightTaxIncluded": true,
+      "OtherTaxIncluded": true,
+      "StatusChangeDate": "2017-09-15T16:00:59.764Z",
+      "StatusChangeUser": "string",
+      "StatusChangeUserid": "string",
+      "IsDuplicate": true,
+      "WoTrackingNumber": 0,
+      "Terms": "string",
+      "Comments": "string",
+      "PaidDate": "2017-09-15T16:00:59.764Z",
+      "TransferredDate": "2017-09-15T16:00:59.764Z",
+      "LastActionDate": "2017-09-15T16:00:59.764Z",
+      "UpdatedDate": "2017-09-15T16:00:59.764Z"
+    },
+    "Resolution": "string",
+    "Asset": {
+      "Location": "string",
+      "Warranty": {
+        "ExpirationDate": "2017-09-15T16:00:59.764Z",
+        "ProviderId": 0,
+        "NTE": 0,
+        "Priority": "string",
+        "Category": "string",
+        "Provider": {
+          "Type": "Fixed",
+          "Value": 0
+        },
+        "Expiration": {
+          "Type": "FromPurchaseDate",
+          "Period": 0
+        }
+      },
+      "IsReplaceEquipment": true,
+      "Id": 0,
+      "Tag": "string",
+      "Manufacturer": "string",
+      "ModelNo": "string",
+      "SerialNo": "string",
+      "LocationId": 0,
+      "Area": "string",
+      "StoreId": "string",
+      "Trade": "string",
+      "Type": "string",
+      "BrandId": 0,
+      "InstallDate": "string",
+      "PurchaseDate": "string",
+      "UsesRefrigerant": 0,
+      "IsLeased": true,
+      "LifeExpectancy": 0,
+      "OriginalValue": 0,
+      "LeaseDate": "string",
+      "LeasePeriod": 0,
+      "Condition": 0,
+      "EnergyEfficiency": "string",
+      "Capacity": "string"
+    },
+    "Attachments": {
+      "Count": {
+        "Total": 0,
+        "Own": 0
+      }
+    },
+    "Notes": {
+      "Last": {
+        "Id": 0,
+        "Number": 0,
+        "NoteData": "string",
+        "DateCreated": "2017-09-15T16:00:59.764Z",
+        "ActionRequired": true,
+        "MailedTo": "string",
+        "CreatedBy": "string"
+      },
+      "Count": {
+        "Total": 0,
+        "Own": 0
+      }
+    },
+    "PostedId": 0,
+    "LinkedWorkOrders": [
+      {
+        "Id": 0
+      }
+    ],
+    "LinkedInWorkOrders": [
+      {
+        "Id": 0
+      }
+    ],
+    "IsCheckInDenied": true,
+    "CheckInDeniedReason": "string",
+    "CheckInRange": 0,
+    "RecallWorkOrder": 0,
+    "IsInvoiced": true,
+    "IsExpired": true,
+    "IsEnabledForMobile": true,
+    "Source": "string",
+    "ClosingAuthorizationNumber": "string",
+    "CallerId": 0,
+    "AutoComplete": true,
+    "AutoInvoice": true
+  }
+]

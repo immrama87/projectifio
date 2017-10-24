@@ -1,0 +1,8 @@
+<div class="container file-editor" ng-controller="fileEditorController">
+  <div ng-include="'/html/partials/file-editor-action-bar.html'"></div>
+
+  <div class="file-contents">
+    <input class="file-title h1" placeholder="Untitled Document" ng-model="file.title"/>
+    <div class="file-contents-html" contenteditable ng-bind-html="file.contents.html" ng-click="updateStyleInfo($event)" highlight-after-bind></div>
+  </div>
+</div>

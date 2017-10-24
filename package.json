@@ -1,0 +1,41 @@
+{
+  "name": "project-tracker",
+  "version": "0.0.1",
+  "description": "A Wiki-style tool for designing and maintaining projects, with time tracking features for calculating drift.",
+  "author": "James Miner <immrama87@gmail.com>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "body-parser": "~1.17.x",
+    "bootstrap": "^3.3.7",
+    "express": "~4.15.x",
+    "font-awesome": "^4.7.0",
+    "highlight.js": "github:isagalaev/highlight.js",
+    "jquery": "^3.2.1",
+    "mime-types": "^2.1.17",
+    "mongodb": "2.2.x",
+    "multer": "^1.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/immrama87/project-tracker.git"
+  },
+  "license": "MITNFA",
+  "devDependencies": {
+    "chakram": "^1.5.0",
+    "frisby": "^0.8.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rm": "^1.0.4",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "highlight.js": "github:isagalaev/highlight.js",
+    "merge-stream": "^1.0.1",
+    "node-sass": "^4.5.3"
+  }
+}
